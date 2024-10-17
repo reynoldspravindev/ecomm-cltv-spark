@@ -1,0 +1,4 @@
+pyspark==3.2.1
+ucimlrepo==0.0.7
+pandas
+setuptools
