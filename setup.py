@@ -7,5 +7,5 @@ setuptools.setup(
     package_dir={"": "cltv"},
     packages=setuptools.find_packages(where="cltv"),
     install_requires=['ucimlrepo'],
-    entry_points={'console_scripts': ['adf_rest_api_cli=adf_rest_api.main:main']},
+    entry_points={'console_scripts': ['calc_cltv=cltv.main:main']},
 )
